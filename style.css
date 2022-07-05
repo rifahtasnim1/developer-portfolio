@@ -8,12 +8,31 @@ H1 {
     font-size: 50PX;
 }
 
+h2 {
+    color: black;
+    font-size: 30px;
+}
+
 span {
     color: chocolate;
+
+}
+
+
+
+
+.flexible-container {
+    display: flex;
+    margin-top: 0px;
+}
+
+
+
 }
 
 .display-button {
     display: flex;
+    margin: 0;
 }
 
 .half-width {
@@ -55,6 +74,7 @@ span {
     width: 50%;
     padding-left: 5%;
     padding-right: 11%;
+
 }
 
 .pine-apple {
@@ -62,4 +82,35 @@ span {
     background-repeat: no-repeat;
     background-position: right;
     margin-right: 0%;
+}
+
+.color-change {
+    color: orange;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    padding-left: 20px;
+    box-shadow: 10px 10px 10px gray;
+    border-left: 7px solid blue;
+
+}
+
+.Experience-Area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+#to-to {
+    border-left: 7px solid orange;
+}
+
+footer p {
+    text-align: center;
 }
